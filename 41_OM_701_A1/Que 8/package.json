@@ -1,0 +1,22 @@
+{
+  "name": "que-8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "dev": "nodemon server.js",
+    "deploy": "echo 'Deploying app...'",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
